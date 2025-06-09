@@ -1,30 +1,14 @@
 {
-  "name": "uwebsockets-nodejs",
-  "version": "0.1.0",
-  "description": "Example repo for my quickstart guide to µWebSockets.js + Node.js + Nginx ",
-  "main": "index.js",
+  "name": "websocket-stress-test",
+  "version": "1.0.0",
+  "description": "WebSocket connection stress test",
+  "main": "src/app/test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/app/test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/edisonchee/uwebsockets-nodejs.git"
-  },
-  "keywords": [
-    "uwebsockets",
-    "websockets",
-    "websocket",
-    "nginx",
-    "nodejs"
-  ],
-  "author": "Edison Chee <edisonchee@live.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/edisonchee/uwebsockets-nodejs/issues"
-  },
-  "homepage": "https://github.com/edisonchee/uwebsockets-nodejs#readme",
   "dependencies": {
     "ioredis": "^5.6.1",
-    "uuidv4": "^6.2.13"
+    "uuidv4": "^6.2.13",
+    "ws": "^8.16.0"
   }
 }
